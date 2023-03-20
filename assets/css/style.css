@@ -107,6 +107,7 @@ header nav ul li a {
     text-align: center;
     position: relative;
     z-index: 9;
+    padding-bottom: 15.8rem;
 }
 
 .hero-data h1 {
@@ -130,9 +131,8 @@ header nav ul li a {
 #hero .btn-theme {
 
 }
-
-
 /**************************/
+
 
 @media screen and (min-width:1650px) {
     .container {
