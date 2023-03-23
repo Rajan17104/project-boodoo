@@ -50,6 +50,13 @@ p {
 
 }
 
+h2{
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    color: #FFFFFF;
+}
+
 
 h6 {
     font-weight: 700;
@@ -154,7 +161,7 @@ header nav ul li a {
 /*******discover-section*****/
 
 #discover {
-    padding: 24.5rem 0 20rem 0;
+    padding: 24.5rem 0 0 0;
     background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
 
 }
@@ -190,14 +197,62 @@ header nav ul li a {
 }
 
 .discover-about .border-end{
-    height: 506px;
-    padding-right: 2rem;
+   padding-right: 11.5rem;
+   border-right-color: 2px solid #FFFFFF;
 }
 
 
 
 /***************************/
 
+
+/*******super section******/
+
+#super{
+    background: linear-gradient(180deg, #000000 37.37%, #C8191C
+    231.27%);
+
+}
+
+.imagine{
+    padding-top: 5rem;
+}
+
+.super-data p{
+    padding-top: 11.5rem;
+}
+
+.super-image{
+    padding-left: 8.8rem;
+}
+
+.super-image img{
+    width: 100%;
+}
+
+.super-main h2 {
+  padding: 10.4rem 5rem 0 0 ;
+}
+
+
+/*****************************/
+
+
+/******services section*******/
+#services{
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+#services h6{
+    text-align: center;
+}
+
+#services h5{
+    width: 1433px;
+    text-align: center;
+}   
+
+/*****************************/
 
 @media screen and (min-width:1650px) {
     .container {
