@@ -57,6 +57,33 @@ h2{
     color: #FFFFFF;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 2rem;
+
+}
+
 
 h6 {
     font-weight: 700;
@@ -67,13 +94,6 @@ h6 {
 
 }
 
-h5 {
-    font-weight: 700;
-    font-size: 84px;
-    line-height: 114px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
 
 /********header*********/
 
@@ -166,16 +186,7 @@ header nav ul li a {
 
 }
 
-.discover-symbol h3 {
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 73px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-top: 2rem;
 
-}
 
 #discover .discover-symbol>* {
     display: flex;
@@ -241,16 +252,42 @@ header nav ul li a {
 /******services section*******/
 #services{
     background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    height: 2000px;
 }
 
 #services h6{
     text-align: center;
 }
 
-#services h5{
-    width: 1433px;
+#services h3{
+   
     text-align: center;
 }   
+
+#services .row > *{
+    border: 2px solid #fff;
+    width: 65.1rem;
+    height: 60.2rem;
+}
+
+
+#services .services-box-1 ,.services-box-2{
+    padding: 5rem 6rem; 
+}
+
+.services-main{
+    padding:10rem 0;
+}
+
+.services-main h4{
+    padding-top: 5rem;
+}
+
+.services-main p{
+    padding-top: 2rem;
+}
+
+
 
 /*****************************/
 
