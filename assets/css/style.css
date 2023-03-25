@@ -271,13 +271,13 @@ header nav ul li a {
     
 }
 
-#services .services-box-1 ,.services-box-2{
+#services .services-box{
     padding: 5rem 6rem; 
     
 }
 
 .services-main{
-    padding: 12rem 12rem  0 12rem; 
+    padding: 15rem 12rem  0 12rem; 
     justify-content: space-between;
 }
 
