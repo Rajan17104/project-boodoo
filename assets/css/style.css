@@ -262,33 +262,32 @@ header nav ul li a {
 
 #services h3{
     text-align: center;
-}   
+}
 
-#services .row > *{
+.services-box{
     border: 2px solid #fff;
-    width: 65.1rem;
-    height: 60.2rem;
-    
+    padding: 5rem 6rem;
 }
 
-#services .services-box{
-    padding: 5rem 6rem; 
-    
-}
-
-.services-main{
-    padding: 15rem 12rem  0 12rem; 
-    justify-content: space-between;
-}
-
-.services-main h4{
+.services-box h4{
     padding-top: 5rem;
 }
 
-.services-main p{
+.services-box p{
     padding-top: 2rem;
 }
 
+.services-box img{
+    width: 100%;
+}
+
+#services .col-md-6:nth-child(odd){
+    padding: 7.5rem 7.5rem 7.5rem 4.2rem;
+}
+
+#services .col-md-6:nth-child(even){
+    padding: 7.5rem 4.2rem 7.5rem 7.5rem;
+}
 
 
 /*****************************/
@@ -339,6 +338,29 @@ header nav ul li a {
 
 /****************************/
 
+/*****horo scope**********/
+
+#horo{
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#horo h6{
+    text-align: center;
+}
+
+#horo h3{
+    max-width: 105.4rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.horo-1{
+    display: ;
+}
+
+
+/************************/
+
 @media screen and (min-width:1650px) {
     .container {
         max-width: 150rem;
@@ -351,3 +373,4 @@ header nav ul li a {
         max-width: 170rem;
     }
 }
+
