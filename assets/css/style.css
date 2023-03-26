@@ -377,8 +377,24 @@ header nav ul li a {
     text-align: start;
 }
 
+#horo .btn-theme{
+  text-align: center;
+}
 
 /************************/
+
+/******partner**********/
+
+#partner{
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+.partner-main{
+   justify-content: space-between;
+}
+
+
+/*************************/
 
 @media screen and (min-width:1650px) {
     .container {
