@@ -80,7 +80,6 @@ h5 {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top: 2rem;
 
 }
 
@@ -186,7 +185,9 @@ header nav ul li a {
 
 }
 
-
+.discover-symbol h5{
+    padding-top: 2rem;
+}
 
 #discover .discover-symbol>* {
     display: flex;
@@ -342,6 +343,7 @@ header nav ul li a {
 
 #horo{
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    padding: 20rem 0;
 }
 
 #horo h6{
@@ -354,8 +356,25 @@ header nav ul li a {
     margin: 0 auto;
 }
 
-.horo-1{
-    display: ;
+#horo .row > *{
+    margin-right: 8.1rem;
+}
+
+#horo .horo-main{
+    margin: 10rem 0;
+}
+
+.horo-img{
+    display: flex;
+}
+
+
+.horo-img img{
+    margin-right: 6rem;
+}
+
+.horo-data h5{
+    text-align: start;
 }
 
 
