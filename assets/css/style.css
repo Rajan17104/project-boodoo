@@ -400,40 +400,121 @@ header nav ul li a {
 
 #appointment {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
-
+    padding: 0 0 20rem 0;
 }
 
 #appointment h3 {
-    max-width: 45.2rem;
+    max-width: 46rem;
 }
 
-.form-label {
+#appointment .appointment-1 {
+    margin-top: 25rem;
+}
+
+.appointment-main .appointment-data {
+    background-color: transparent;
+    color: #fff;
+    width: 435px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 2px solid #FFFFFF;
+}
+
+.appointment-main .appointment-font {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
     text-transform: uppercase;
     color: #FFFFFF;
-
+    padding: 8rem 0 3rem 0;
 }
 
-.app-box {
-    align-items: center;
-    padding: 10px 30px;
-    gap: 10px;
-    color: #FFF;
-    width: 435px;
-    height: 100px;
-    background-color: transparent;
-    border: 2px solid #FFFFFF;
-}
-
-#appointment input::placeholder{
+#appointment input::placeholder {
     font-weight: 400;
     font-size: 24px;
-    line-height: 33px; 
+    line-height: 33px;
     color: #FFFFFF;
 }
+
+
+
 /******************************/
+
+/******become section*******/
+#become {
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    position: relative;
+
+}
+
+#become::before {
+    background: url(../images/b-1.png);
+    content: '';
+    inset: 0;
+    position: absolute;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.become-main {
+    padding: 10.5rem 0;
+    text-align: center;
+}
+
+.become-main p {
+    width: 89.8rem;
+    margin: 0 auto;
+    padding: 2rem 0 5rem 0;
+}
+
+/***************************/
+
+
+/********membership section*********/
+
+#membership {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    padding: 21.9rem 0;
+}
+
+#membership h6,
+h3 {
+    text-align: center;
+}
+
+#membership .row {
+    justify-content: space-between;
+}
+
+#membership .row>* {
+    border: 2px solid #fff;
+}
+
+.membership-main h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.membership-main h3 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*******************************/
 
 @media screen and (min-width:1650px) {
     .container {
