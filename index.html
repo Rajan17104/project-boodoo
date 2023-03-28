@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Home</title>
@@ -358,7 +359,7 @@
                     <div class="col-md-4">
                         <div class="membership-data border">
                             <h5>STARTER PRICE</h5>
-                            <h3>$44/ <span>Month</span></h3>
+                            <h4>$44/ <span>Month</span></h4>
                             <ul>
                                 <li>
                                     <img src="./assets/images/select.png" alt="">
@@ -383,7 +384,7 @@
                     <div class="col-md-4">
                         <div class="membership-data border">
                             <h5>BEST VALUE</h5>
-                            <h3>$72/<span>Month</span></h3>
+                            <h4>$72/<span>Month</span></h4>
                             <ul>
                                 <li>
                                     <img src="./assets/images/select.png" alt="">
@@ -408,7 +409,7 @@
                     <div class="col-md-4">
                         <div class="membership-data border">
                             <h5>PREMIUM PRICE</h5>
-                            <h3>$112/<span>Month</span></h3>
+                            <h4>$112/<span>Month</span></h4>
                             <ul>
                                 <li>
                                     <img src="./assets/images/select.png" alt="">
@@ -433,6 +434,49 @@
                 </div>
             </div>
         </section>
+
+        <section id="our">
+            <div class="container">
+                <div class="our-1">
+                    <h2>OUR HAPPY CLIENT SAY ABOUT BOODOO</h2>
+                    <img src="./assets/images/Arrow 2.png" alt="">
+                </div>
+
+                <div class="swiper our-slider">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="our-main">
+                            <div class="our-img">
+                                <img src="./assets/images/o-1.png" alt="">
+                            </div>
+                            <div class="our-data">
+                                <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                <h5>Antonio H - Client</h5>
+                            </div>
+                        </div>   
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="our-main">
+                            <div class="our-img">
+                                <img src="./assets/images/o-2.png" alt="">
+                            </div>
+                            <div class="our-data">
+                                <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                <h5>Jessica D - Client</h5>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+
+                      </div>
+                      <div class="swiper-slide">
+
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -440,6 +484,32 @@
     </footer>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".our-slider", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 50,
+            },
+          },
+        });
+      </script>
 </body>
 
 </html>

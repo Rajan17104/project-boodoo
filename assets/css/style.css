@@ -499,7 +499,6 @@ header nav ul li a {
 }
 
 #membership .row>* .membership-data {
-    /* border: 2px solid #fff; */
     padding: 6rem 7.7rem;
 }
 
@@ -517,16 +516,16 @@ header nav ul li a {
     
 }
 
-.membership-main h3 {
+.membership-main h4 {
     font-weight: 700;
     font-size: 72px;
     line-height: 98px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 3rem 0;
+    margin: 3rem 0 3rem 3rem;
 }
 
-.membership-main h3 span{
+.membership-main h4 span{
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
@@ -545,16 +544,55 @@ header nav ul li a {
     margin-top: 8rem;
 }
 
-
 #membership .row>*:nth-child(odd) {
-    padding:0 3rem;
+    padding:8rem 4.5rem 0 4.5rem;
 }
 
 #membership .row>*:nth-child(even) {
-    padding:0 3rem;
+    padding:8rem 4.5rem 0 4.5rem;
 }
 
+#membership .membership-main .membership-data:hover{
+    background-color: #C8191C;
+    
+}
+
+
+
+#membership .membership-main .membership-data:hover .btn-theme{
+    background-color: #fff;
+    color: #C8191C;
+}
+
+
 /*******************************/
+
+/*********our section**********/
+
+#our{
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+#our h2{
+    text-align: center;
+    max-width: 144.6rem;
+    margin: 0 auto;
+}
+
+#our .our-1 img{
+    margin: 0 auto;
+    padding: 10rem 0 15rem 0;
+}
+
+.our-slider .our-data h5{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+our
+/******************************/
 
 @media screen and (min-width:1650px) {
     .container {
