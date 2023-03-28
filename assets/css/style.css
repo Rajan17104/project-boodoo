@@ -588,8 +588,19 @@ header nav ul li a {
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
+    text-align: start;
     color: #FFFFFF;
+    padding-top: 1.5rem;
 }
+
+.our-slider .our-data{
+    padding-top: 10.9rem;
+}
+
+.our-main{
+    width: 47.6rem;
+}
+
 
 
 /******************************/
