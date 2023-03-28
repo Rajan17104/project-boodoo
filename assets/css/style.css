@@ -424,6 +424,12 @@ header nav ul li a {
     border: 2px solid #FFFFFF;
 }
 
+
+.appointment-main .appointment-button
+{
+    padding-top: 8rem;
+}
+
 .appointment-main .appointment-font {
     font-weight: 700;
     font-size: 32px;
@@ -446,7 +452,8 @@ header nav ul li a {
 
 /******become section*******/
 #become {
-    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
+
     position: relative;
 
 }
@@ -456,7 +463,7 @@ header nav ul li a {
     content: '';
     inset: 0;
     position: absolute;
-    background-size: 100% 100%;
+    background-size: 85% auto;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -478,21 +485,26 @@ header nav ul li a {
 /********membership section*********/
 
 #membership {
-    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
     padding: 21.9rem 0;
 }
 
-#membership h6,
-h3 {
+#membership h6 ,#membership h3{
     text-align: center;
 }
 
 #membership .row {
     justify-content: space-between;
+    padding: 0 2rem;
 }
 
-#membership .row>* {
-    border: 2px solid #fff;
+#membership .row>* .membership-data {
+    /* border: 2px solid #fff; */
+    padding: 6rem 7.7rem;
+}
+
+.membership-data {
+    color: #fff;
 }
 
 .membership-main h5 {
@@ -502,16 +514,44 @@ h3 {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-
+    
 }
 
 .membership-main h3 {
     font-weight: 700;
     font-size: 72px;
     line-height: 98px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 3rem 0;
+}
+
+.membership-main h3 span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.membership-data ul li{
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.membership-data ul a{
+    margin-top: 8rem;
+}
+
+
+#membership .row>*:nth-child(odd) {
+    padding:0 3rem;
+}
+
+#membership .row>*:nth-child(even) {
+    padding:0 3rem;
 }
 
 /*******************************/
