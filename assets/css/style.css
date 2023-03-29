@@ -571,6 +571,7 @@ header nav ul li a {
 
 #our{
     background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    position: relative;
 }
 
 #our h2{
@@ -601,7 +602,89 @@ header nav ul li a {
     width: 47.6rem;
 }
 
+#our .our-slider .swiper-wrapper {
+    padding: 0 6rem 0 0;
+}
 
+
+.our-btn .prev-1 {
+    left: 1rem;
+    color: #fff;
+}
+
+.our-btn .next-1 {
+    right: 30rem;
+    color: #fff;
+}
+
+.our-btn .next-1,
+.our-btn .prev-1 {
+    position: absolute;
+    z-index: 9;
+    
+}
+
+.prev-1:after {
+    content: 'prev';
+}
+
+.next-1:after {
+    content: 'next';
+}
+
+.our-btn .prev-1::after,
+.our-btn .next-1::after {
+    font-family: swiper-icons;
+    font-size: 3rem;
+    text-transform: none !important;
+    letter-spacing: 0;
+    color: #FFF;
+    font-variant: initial;
+    line-height: 1;
+}
+
+
+
+/******************************/
+
+
+/********blog section**********/
+
+#blog{
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding: 16.9rem 0 20rem 0;
+}
+
+
+
+#blog h6 {
+    text-align: center;
+}
+
+#blog h3{
+    text-align: center;
+    margin-bottom:8rem ;
+}
+
+#blog .blog-main h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 29.8rem;
+    padding: 6rem 0 2rem 0;
+    text-align: start;
+}
+
+#blog .blog-main p{
+    width: 36.1rem;
+}
+
+
+#blog .blog-main span{
+    color: #0085FF;
+}
 
 /******************************/
 
