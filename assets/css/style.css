@@ -557,8 +557,6 @@ header nav ul li a {
     
 }
 
-
-
 #membership .membership-main .membership-data:hover .btn-theme{
     background-color: #fff;
     color: #C8191C;
@@ -606,14 +604,18 @@ header nav ul li a {
     padding: 0 6rem 0 0;
 }
 
+/* .our-btn{
+    top: 10rem;
+} */
 
-.our-btn .prev-1 {
-    left: 1rem;
+
+.our-section .our-btn .prev-1 {
+    left: 5rem;
     color: #fff;
 }
 
-.our-btn .next-1 {
-    right: 30rem;
+.our-section .our-btn .next-1 {
+    right: 15rem;
     color: #fff;
 }
 
@@ -687,6 +689,68 @@ header nav ul li a {
 }
 
 /******************************/
+
+/******footer section********/
+
+#footer{
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main .boodoo{
+    width: 14%;
+}
+.footer-main .services{
+    width: 11%;
+}
+
+.footer-main p{
+    padding-top: 2rem;
+}
+
+.footer-main h5{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+
+.footer-main .contact i{
+    color: #fff;
+    font-size: 2.4rem;
+    padding-right: 2rem;
+}
+
+.footer-main .contact ul li{
+    display: flex;
+}
+
+.footer-main .contact ul li a{
+    display: flex;
+    
+}
+
+.footer-main .contact ul li a p{
+    padding: 0;
+}
+
+.footer-main .contact ul li{
+    padding-top: 2rem;
+}
+
+
+
+.footer-main .maps h5{
+    padding-bottom:2rem ;
+    text-align: start;
+}
+
+/****************************/
 
 @media screen and (min-width:1650px) {
     .container {
