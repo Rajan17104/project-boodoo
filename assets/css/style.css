@@ -506,6 +506,10 @@ header nav ul li a {
     color: #fff;
 }
 
+/* .membership-data ul li img {
+    margin-right: rem;
+} */
+
 .membership-main h5 {
     font-weight: 700;
     font-size: 24px;
@@ -538,7 +542,8 @@ header nav ul li a {
     display: flex;
     margin: 1rem 0;
     align-items: center;
-}
+}   
+
 
 .membership-data ul a{
     margin-top: 8rem;
@@ -565,11 +570,10 @@ header nav ul li a {
 
 /*******************************/
 
-/*********our section**********/
+/******our section************/
 
 #our{
     background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
-    position: relative;
 }
 
 #our h2{
@@ -583,7 +587,7 @@ header nav ul li a {
     padding: 10rem 0 15rem 0;
 }
 
-.our-slider .our-data h5{
+.our-swiper .our-data h5{
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
@@ -592,63 +596,15 @@ header nav ul li a {
     padding-top: 1.5rem;
 }
 
-.our-slider .our-data{
-    padding-top: 10.9rem;
-}
-
-.our-main{
-    width: 47.6rem;
-}
-
-#our .our-slider .swiper-wrapper {
-    padding: 0 6rem 0 0;
-}
-
-/* .our-btn{
-    top: 10rem;
-} */
-
-
-.our-section .our-btn .prev-1 {
-    left: 5rem;
-    color: #fff;
-}
-
-.our-section .our-btn .next-1 {
-    right: 15rem;
-    color: #fff;
-}
-
-.our-btn .next-1,
-.our-btn .prev-1 {
-    position: absolute;
-    z-index: 9;
+.our-main .our-data p{
     
 }
 
-.prev-1:after {
-    content: 'prev';
+.our-main .our-data{
+    width: 47.6rem;
 }
 
-.next-1:after {
-    content: 'next';
-}
-
-.our-btn .prev-1::after,
-.our-btn .next-1::after {
-    font-family: swiper-icons;
-    font-size: 3rem;
-    text-transform: none !important;
-    letter-spacing: 0;
-    color: #FFF;
-    font-variant: initial;
-    line-height: 1;
-}
-
-
-
-/******************************/
-
+/****************************/
 
 /********blog section**********/
 
@@ -656,7 +612,6 @@ header nav ul li a {
     background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
     padding: 16.9rem 0 20rem 0;
 }
-
 
 
 #blog h6 {
@@ -687,6 +642,10 @@ header nav ul li a {
 #blog .blog-main span{
     color: #0085FF;
 }
+
+/* .blog-main img{
+    width: 100%;
+} */
 
 /******************************/
 
@@ -746,7 +705,7 @@ header nav ul li a {
 
 
 .footer-main .maps h5{
-    padding-bottom:2rem ;
+    padding-bottom: 2rem;
     text-align: start;
 }
 
