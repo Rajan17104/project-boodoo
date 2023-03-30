@@ -606,8 +606,9 @@ header nav ul li a {
 
 
 .our-swiper{
+    /* padding: 0 15rem ; */
     margin-left: 25rem;
-    /* margin-right: 2rem; */
+    /* margin-right: 25rem; */
 }
 
 
