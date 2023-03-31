@@ -193,6 +193,10 @@ header nav ul li a {
     align-items: center;
 }
 
+#discover .discover-about h3{
+    width: 57.4rem;
+}
+
 .discover-about {
     padding: 20rem 0 20rem 0;
     position: relative;
@@ -207,11 +211,14 @@ header nav ul li a {
 }
 
 .discover-about .border-end {
-    padding-right: 11.5rem;
+    padding-right: 13rem;
     border-right-color: 2px solid #FFFFFF;
 }
 
 
+#discover .discover-about a{
+    margin-top: 10.5rem;
+}
 
 /***************************/
 
@@ -486,7 +493,7 @@ header nav ul li a {
 
 #membership {
     background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
-    padding: 21.9rem 0;
+    padding: 21.9rem 0 23.5rem 0;
 }
 
 #membership h6 ,#membership h3{
@@ -499,16 +506,16 @@ header nav ul li a {
 }
 
 #membership .row>* .membership-data {
-    padding: 6rem 7.7rem;
+    padding: 6rem 6.7rem;
 }
 
 .membership-data {
     color: #fff;
 }
 
-/* .membership-data ul li img {
-    margin-right: rem;
-} */
+.membership-data ul li img {
+    margin-right: 1rem;
+}
 
 .membership-main h5 {
     font-weight: 700;
@@ -540,7 +547,7 @@ header nav ul li a {
 
 .membership-data ul li{
     display: flex;
-    margin: 1rem 0;
+    margin: 2rem 0;
     align-items: center;
 }   
 
@@ -596,6 +603,10 @@ header nav ul li a {
     padding-top: 1.5rem;
 }
 
+ .our-main {
+    padding-left: 3rem;
+}
+
 .our-main .our-data p{
     padding-top: 10.9rem;
 }
@@ -607,7 +618,7 @@ header nav ul li a {
 
 .our-swiper{
     /* padding: 0 15rem ; */
-    margin-left: 25rem;
+    margin-left: 22rem;
     /* margin-right: 25rem; */
 }
 
@@ -659,8 +670,8 @@ header nav ul li a {
     inset: 0;
     position: absolute;
     /* opacity: 0.1; */
-    top: 37rem;
-    right:60rem;
+    top: 43rem;
+    right:61rem;
     position: absolute;
     z-index: 9;
     background-position: center;
@@ -669,16 +680,7 @@ header nav ul li a {
 
 /****************************/
 
-/* #hero::before {
-    background: url(../images/circle.png);
-    content: '';
-    inset: 0;
-    position: absolute;
-    opacity: 0.1;
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
+
 /********blog section**********/
 
 #blog{
@@ -708,7 +710,16 @@ header nav ul li a {
 }
 
 #blog .blog-main p{
-    width: 36.1rem;
+   max-width: 36.1rem;
+}
+
+.blog-main{
+    padding: 0 5rem;
+}
+
+.blog-main img{
+    width: 100%;
+   
 }
 
 
@@ -722,21 +733,36 @@ header nav ul li a {
 
 #footer{
     background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    padding-bottom: 15.1rem;
+
+}
+
+#footer .container{
+    border-bottom:2px solid #fff ;
+}
+.boodoo p{
+    width: 26.9rem;
 }
 
 .footer-main{
     display: flex;
-    justify-content: space-between;
-}
-
-.footer-main .boodoo{
-    width: 14%;
-}
-.footer-main .services{
-    width: 11%;
+    border-top: 2px solid #fff;
+    padding: 8rem 0;
 }
 
 .footer-main p{
+    padding-top: 2rem;
+}
+
+.footer-main a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+
+.footer-main li{
     padding-top: 2rem;
 }
 
@@ -776,6 +802,11 @@ header nav ul li a {
 .footer-main .maps h5{
     padding-bottom: 2rem;
     text-align: start;
+}
+
+.copy{
+    text-align: center;
+    padding-bottom: 4.5rem;
 }
 
 /****************************/
