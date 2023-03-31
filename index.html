@@ -309,8 +309,15 @@
 
                                     <label for="exampleInputEmail1"
                                         class="form-label appointment-font">SERVICES*</label>
-                                    <input type="email" class="form-control appointment-data" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="Choose services">
+                                        <div class="section">
+                                            <select name="Choose services">
+                                                <option value="0">Choose services</option>
+                                                <option value="1">case on delivery</option>
+                                                <option value="2">online</option>
+                                                <option value="3">net banking</option>
+                                            </select>
+                                        </div>
+                                    
                                     <div class="appointment-button">
                                         <a href="#" class="btn-theme">BookNow</a>
                                     </div>
@@ -330,9 +337,14 @@
                                         aria-describedby="emailHelp" placeholder="youremail@domain.com">
 
                                     <label for="exampleInputEmail1" class="form-label appointment-font">DATE*</label>
-                                    <input type="email" class="form-control appointment-data" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="Choose Date">
-                                    <option value=""></option>
+                                    <div class="section">
+                                        <select name="Choose Date">
+                                            <option value="0">Choose Date</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -613,7 +625,7 @@
                 prevEl: '.prev-1',
             },
             breakpoints: {
-                640: {
+                640: {  
                     slidesPerView: 1,
                     spaceBetween: 20,
                 },

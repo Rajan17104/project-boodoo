@@ -418,7 +418,7 @@ header nav ul li a {
     margin-top: 25rem;
 }
 
-.appointment-main .appointment-data {
+.appointment-main .appointment-data,.section{
     background-color: transparent;
     color: #fff;
     width: 435px;
@@ -431,13 +431,30 @@ header nav ul li a {
     border: 2px solid #FFFFFF;
 }
 
+.section{
+    padding-top: 3rem;
+}
+
+.section select{
+    background-color: transparent;
+    color: #fff;
+    width: 35rem;
+    border: none;
+}
+
+.section option{
+    max-width: 2rem;
+    color: #000000;
+    
+}
+
 
 .appointment-main .appointment-button
 {
     padding-top: 8rem;
 }
 
-.appointment-main .appointment-font {
+.appointment-main .appointment-font{
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
