@@ -828,14 +828,89 @@ header nav ul li a {
 
 /****************************/
 
-@media screen and (min-width:1650px) {
+@media screen and (max-width:1650px) {
     .container {
         max-width: 150rem;
     }
+
+    .header{
+    
+    }
+
+    .hero-data h1 {
+        font-weight: 700;
+        font-size: 109px;
+        line-height: 120px;
+        color: #FFFFFF;
+    }
+
+    .discover-symbol h5{
+        font-size: 5rem;
+    }
+
+    h2{    
+        font-weight: 700;
+        font-size: 120px;
+        line-height: 150px;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    h3{
+        font-size: 80px;
+    }
+
+    h4{
+        font-size: 38px;
+    }
+
+    .appointment-main .appointment-data, .section {
+        width: 370px;
+    }
+
+    .section select {
+        width: 30rem;
+    }
+
+    #membership .row>*:nth-child(odd) {
+        padding: 8rem 0.5rem 0 1.5rem;
+    }
+
+    #membership .row>*:nth-child(even) {
+        padding: 8rem 0.5rem 0 1.5rem;
+    }
+
+    #membership .row>* .membership-data {
+        padding: 6rem 5.7rem;
+    }
+
+    #our h2 {
+        max-width: 111.6rem;
+    }
+
+    .our-swiper {
+        margin-left: 17rem;
+    }
+
+    .our-main {
+        padding-left: 0rem;
+    }
+
+    .blog-main {
+        padding: 0px 2rem;
+    }
+
+    
 }
 
 
-@media screen and (min-width:1920px) {
+@media screen and (max-width:1920px) {
     .container {
         max-width: 170rem;
     }
