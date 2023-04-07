@@ -123,6 +123,8 @@ header nav ul li a {
 
 }
 
+
+
 /************************/
 
 /******hero section******/
@@ -160,8 +162,12 @@ header nav ul li a {
 
 }
 
-.hero-data span {
+.cd-words-wrapper {
     color: #C8191C;
+}
+
+.cd-words-wrapper b{
+    font-size: 150px;
 }
 
 .hero-data p {
