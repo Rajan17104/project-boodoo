@@ -26,7 +26,7 @@
 
 <body>
 
-    <header>
+    <header id="main-header">
 
         <div class="container">
             <a href="" class="logo">
@@ -635,9 +635,10 @@
     <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
     <script src="./assets/js/particles.js"></script>
     <script src="./assets/js/app.js"></script>
+
     <script>
         var kursorx = new kursor({
-          type: 1,
+          type: 2,
           color: 'rgba(200,100,0)'
         })
     </script>  
@@ -669,6 +670,17 @@
                 },
             },
         });
+    </script>
+
+    <script>
+        window.onscroll = function () {
+            console.log(window.scrolly);
+            if (window.scrollY > 20) {
+                document.getElementById("main-header").classList.add("dark-header")
+            } else {
+                document.getElementById("main-header").classList.remove("dark-header")
+            }
+        }
     </script>
 </body>
 
