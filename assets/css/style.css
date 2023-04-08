@@ -135,6 +135,28 @@ header nav ul li a {
     position: relative;
 }
 
+.top{
+    position:fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    background-color: red;
+    display: none;
+}
+
+.top i{
+    color: #fff;
+    padding: 18px; 
+    font-size: 20px;
+}
+
+.show{
+    display: block;
+}
+
 #hero::before {
     background: url(../images/circle.png);
     content: '';
