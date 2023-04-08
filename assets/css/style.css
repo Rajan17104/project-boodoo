@@ -176,6 +176,14 @@ header nav ul li a {
     margin: 0 auto;
 }
 
+#particles-js {
+    /* background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%); */
+}
+
+.particles-js-canvas-el{
+    position: absolute;
+    top:0;
+}
 
 
 /**************************/
@@ -833,6 +841,12 @@ header nav ul li a {
 }
 
 /****************************/
+
+
+
+
+
+
 
 @media screen and (max-width:1650px) {
     .container {

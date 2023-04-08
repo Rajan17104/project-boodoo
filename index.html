@@ -6,16 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/kursor.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
-
+    
     <script src="./assets/js/modernizr.js"></script>
+ 
 
     <title>Home</title>
 </head>
@@ -44,22 +48,24 @@
 
     <main>
         <section id="hero">
-            <div class="container">
-                <div class="hero-data">
-                    <h1 class="cd-headline rotate-1">
-                        <span>YOUR PATH TO UNDERSTANDING </span> 
-                        <span class="cd-words-wrapper">
-                            <b class="is-visible">ZODIAC</b>
-                            <b>sushi</b>
-                            <b>steak</b>
-                        </span>
-                    </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu
-                        consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. odio ullamcorper non sed
-                        dignissim eu.</p>
-                    <a href="#" class="btn-theme"> Get started</a>
+            <div id="particles-js">
+                <div class="container">
+                        <div class="hero-data">
+                            <h1 class="cd-headline rotate-1">
+                                <span>YOUR PATH TO UNDERSTANDING </span> 
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">ZODIAC</b>
+                                    <b>sushi</b>
+                                    <b>steak</b>
+                                </span>
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu
+                                consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. odio ullamcorper non sed
+                                dignissim eu.</p>
+                            <a href="#" class="btn-theme"> Get started</a>
+                        </div>
                 </div>
-            </div>
+            </div>    
         </section>
 
         <section id="discover">
@@ -624,10 +630,20 @@
 
     <script src="./assets/js/main.js"></script>
 
-    
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
 
+
+    <script>
+        var kursorx = new kursor({
+          type: 5,
+          color: 'rgba(200,100,0)'
+        })
+    </script>  
+
+    <script src="./assets/js/particles.js"></script>
+    <script src="./assets/js/app.js"></script>
 
     <script>
         var swiper = new Swiper(".our-swiper", {
